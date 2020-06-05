@@ -1,0 +1,32 @@
+body{
+    background-color: #F7F4F4;
+}
+#main-content{
+color: black;
+display: flex;
+width: 50%;
+margin: auto;
+padding: 2%;
+
+}
+#main-content div{
+    border: 1px solid #C5C3C3;
+    background-color: white;
+    padding: 4%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 15px 1px 20px 1px #C5C3C3;
+}
+h2{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    padding: 1%;
+}
+#main-content p{
+color: black;
+line-height: 2;
+padding: 1%;
+font-size: 2rem;
+
+}
