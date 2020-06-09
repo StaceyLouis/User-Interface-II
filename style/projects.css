@@ -1,0 +1,35 @@
+
+#projects-container {
+display: flex;
+flex-flow: row wrap;
+justify-content: space-evenly;
+margin-top: 2%;
+
+}
+
+.project-item {
+    width: 25%;
+
+}
+
+@media(max-width: 500px){
+	#projects-container{
+		flex-flow: column wrap;
+
+	}
+}
+
+@media(max-width: 800px){
+	#projects-container{
+		flex-flow: column wrap;
+		
+
+	}
+	.project-item{
+		width: 100%;
+		margin: 2% auto;
+		align-content: center;
+		text-align: center;
+	}
+
+}
